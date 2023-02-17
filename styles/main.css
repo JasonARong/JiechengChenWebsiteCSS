@@ -1,8 +1,5 @@
 @import url(global.css);
 
-#homeNav{
-    /* font-weight: bold; */
-}
 
 /* Header */
 #heroPage{
@@ -245,12 +242,13 @@
     font-weight: 600;
     letter-spacing: 0.2px;
     line-height: 1.7;
-    margin-bottom: 95px;
+    margin-bottom: 40px;
 }
 
 
 #learnAboutButton{
-    position:absolute;
+    /* position:absolute; */
+    float: right;
     bottom: 0px;
     right: 0px;
     margin: 3vh;
@@ -291,7 +289,7 @@
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     grid-gap: 1rem;
     margin: 2vh;
-    margin-bottom: 80px;
+    margin-bottom: 50px;
 }
 
 #contactways a{
@@ -320,10 +318,9 @@
 
 
 #learnContactButton{
-    position:absolute;
     bottom: 0px;
     right: 0px;
-    margin: 3vh;
+    margin: 3vh; 
 }
 
 

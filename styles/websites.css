@@ -94,6 +94,15 @@ main{
     margin-bottom: 60px;
 }
 
+#tritonApp h3 span{
+    font-size: 1.5rem;
+    background: linear-gradient(130.24deg, #77cafa , #f8f5bc , #94cafd, #ebfa77 );
+    background-size: 600% 600%;
+    animation: gradient 18s ease infinite;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
 #tritonApp>div{
     box-sizing: border-box;
     width: 30vw;

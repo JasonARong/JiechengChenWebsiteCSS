@@ -1,0 +1,24 @@
+/*icon and navBar*/
+.siteIcon, .navBar{
+    display: none;
+}
+.menuCheck{
+    display: block;
+}
+.menuCheck:checked~ .phoneNav ul{
+    visibility: visible;
+    opacity: 1;
+}
+
+.hamburger{
+    visibility:visible;
+}
+
+/*header*/
+#headerEnd img{
+    transform: translateY(5vh);
+
+}
+#heroBack{
+    height: 107%;
+}
